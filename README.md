@@ -10,7 +10,7 @@ Configuration and save files will be created in files/Zomboid folder when the se
 docker run -it -p 16261 -p 8766 -p 8767 -p 16262-16272 -v /root/ProjectZomboid-docker/files/Zomboid:/home/steam/Zomboid pz:latest
 ```
 
-The Zomboid folder on the host needs to be owned by a user with the same credentials as the Steam user in the container.
+Additonally, the Zomboid folder on the host needs to be owned by a user with the same credentials as the Steam user in the container.
 ```
 $ groupadd -g 1500 steam
 $ useradd -g 1500 steam
