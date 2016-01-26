@@ -33,6 +33,6 @@ $ docker build -t pz:latest .
 $ ./pz_docker.sh
 ```
 
-The pz_docker.sh script will run the  
+The pz_docker.sh script will run the container, mount the configuration files and start the server.
 
 
